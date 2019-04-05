@@ -195,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/android.hardware.audio@2.0.so:system/lib64/android.hardware.audio@2.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/android.hardware.wifi.supplicant@1.0.so:system/lib64/android.hardware.wifi.supplicant@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/smartisan/ocean/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -234,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:system/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
