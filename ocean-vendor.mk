@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/smartisan/ocean/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/smartisan/ocean/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/smartisan/ocean/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/smartisan/ocean/proprietary/framework/uimservicelibrary.jar:system/framework/uimservicelibrary.jar \
     vendor/smartisan/ocean/proprietary/lib/android.hardware.audio@2.0.so:system/lib/android.hardware.audio@2.0.so \
     vendor/smartisan/ocean/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
