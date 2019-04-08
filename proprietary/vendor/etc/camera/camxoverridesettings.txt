@@ -1,0 +1,16 @@
+capResolutionForSingleIFE=FALSE
+tintlessEnable=TRUE
+disablePDAF=FALSE
+disableFocusIndication=1
+singleIFESupportedWidth=5184
+singleIFESupportedHeight=3880
+multiCameraEnable=TRUE
+multiCamera3ASync=MultiCamera3ASyncQTI
+dualCamLtmEnable=TRUE
+enableSensorHWSync=TRUE
+enableDualIFE=FALSE
+advanceFeatureMask=0x17
+logInfoMask=0
+logWarningMask=0
+systemLogEnable=FALSE
+enableNCSService=TRUE

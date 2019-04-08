@@ -1,0 +1,21 @@
+{
+	"housing_color":{ "type": "int", "ver": "0", "data": "0" },
+        "lux_raw":{ "type": "int", "ver": "0", "data": "2500" },
+        "oem_data0":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data1":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data2":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data3":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data4":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data5":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data6":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data7":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data8":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data9":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data10":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data11":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data12":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data13":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data14":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data15":{ "type": "int", "ver": "0", "data": "0" },
+        "oem_data16":{ "type": "int", "ver": "0", "data": "0" }
+}

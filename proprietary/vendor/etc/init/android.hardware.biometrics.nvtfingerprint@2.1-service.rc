@@ -1,0 +1,11 @@
+service nvt_fps_hal /vendor/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class core
+    user system
+    group system input
+    disabled
+
+on property:ro.boot.fingerprint.id=nvtfp
+start nvt_fps_hal
