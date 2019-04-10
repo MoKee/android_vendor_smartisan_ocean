@@ -1195,5 +1195,4 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libsdm-disp-vndapis \
     libtime_genoff \
-    com.qualcomm.location \
     TimeService
