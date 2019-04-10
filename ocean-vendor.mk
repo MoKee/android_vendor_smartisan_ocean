@@ -545,7 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 PRODUCT_PACKAGES += \
-    libqdMetaData \
     QtiTelephonyService \
     ims \
     imssettings \
