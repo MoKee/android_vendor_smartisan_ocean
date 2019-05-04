@@ -149,6 +149,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib/libaudiohal.so:system/lib/libaudiohal.so \
     vendor/smartisan/ocean/proprietary/lib/libbeauty_momo_sm.so:system/lib/libbeauty_momo_sm.so \
     vendor/smartisan/ocean/proprietary/lib/libcalibration_jni.so:system/lib/libcalibration_jni.so \
+    vendor/smartisan/ocean/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/smartisan/ocean/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/smartisan/ocean/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/smartisan/ocean/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/smartisan/ocean/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
