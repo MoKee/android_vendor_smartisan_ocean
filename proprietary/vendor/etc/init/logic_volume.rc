@@ -1,4 +1,3 @@
 service logic_volume /vendor/bin/logic_volume -f /vendor/etc/logic_volume.conf 
     disabled
     oneshot
-    seclabel u:r:logic_volume:s0
