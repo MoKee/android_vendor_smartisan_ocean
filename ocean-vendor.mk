@@ -460,6 +460,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmms_warper_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_warper_vstab.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqahw.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqahwwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqahwwrapper.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
@@ -530,6 +531,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqahw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqahw.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqahwwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqahwwrapper.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqservice.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
