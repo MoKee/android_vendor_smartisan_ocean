@@ -149,8 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib/libsymphony-cpu.so:system/lib/libsymphony-cpu.so \
     vendor/smartisan/ocean/proprietary/lib/libsymphonypower.so:system/lib/libsymphonypower.so \
     vendor/smartisan/ocean/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.display.config@1.0.so:system/lib/vendor.display.config@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.display.config@1.1.so:system/lib/vendor.display.config@1.1.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.ifaa@1.0.so:system/lib/vendor.qti.hardware.ifaa@1.0.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
@@ -176,8 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib64/libsns_low_lat_stream_stub.so:system/lib64/libsns_low_lat_stream_stub.so \
     vendor/smartisan/ocean/proprietary/lib64/libsnsdiaglog.so:system/lib64/libsnsdiaglog.so \
     vendor/smartisan/ocean/proprietary/lib64/libssc.so:system/lib64/libssc.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.display.config@1.0.so:system/lib64/vendor.display.config@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.display.config@1.1.so:system/lib64/vendor.display.config@1.1.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.ifaa@1.0.so:system/lib64/vendor.qti.hardware.ifaa@1.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
@@ -425,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/gralloc.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.sdm710.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/hwcomposer.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.sdm710.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/hw/memtrack.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.sdm710.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/nvtfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nvtfingerprint.default.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm710.so \
@@ -499,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
@@ -513,7 +507,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixfingerprintd_binder.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixhwfingerprint.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_tonemapper.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
@@ -535,10 +528,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt-prop.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
@@ -569,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
@@ -681,7 +671,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm710.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/gralloc.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm710.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/hwcomposer.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm710.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/hw/memtrack.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.sdm710.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/nvtfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nvtfingerprint.default.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm710.so \
@@ -748,7 +737,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeedbackhandler.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libfpr_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpr_ca.so \
@@ -761,7 +749,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_tonemapper.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
@@ -778,10 +765,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqservice.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
@@ -812,7 +797,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
-    vendor/smartisan/ocean/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
