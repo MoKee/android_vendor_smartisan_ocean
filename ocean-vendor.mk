@@ -446,6 +446,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxCore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcEnc.so \
@@ -455,6 +456,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Enc.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVdec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVencMpeg4.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdec.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVenc.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
@@ -482,6 +485,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2dcolorconvert.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
@@ -518,6 +522,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmms_gyro_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libmms_gyro_vstab_auth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab_auth.so \
@@ -526,6 +531,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libplatformconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplatformconfig.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
@@ -569,6 +575,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/smartisan/ocean/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
@@ -697,6 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxCore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcEnc.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
@@ -705,6 +713,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Enc.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVdec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVencMpeg4.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
@@ -727,6 +737,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2dcolorconvert.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
@@ -760,9 +771,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libplatformconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libplatformconfig.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
@@ -805,6 +818,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsmartisan_cjson.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartisan_cjson.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
+    vendor/smartisan/ocean/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress_vendor.so \
     vendor/smartisan/ocean/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
