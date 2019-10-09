@@ -894,9 +894,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
     vendor/smartisan/ocean/proprietary/framework/vendor.qti.latency-V2.0-java.jar:system/framework/vendor.qti.latency-V2.0-java.jar \
     vendor/smartisan/ocean/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/smartisan/ocean/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/smartisan/ocean/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/smartisan/ocean/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/smartisan/ocean/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
@@ -907,7 +904,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/smartisan/ocean/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/smartisan/ocean/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/smartisan/ocean/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/smartisan/ocean/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/smartisan/ocean/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
@@ -916,15 +912,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.gnss@2.0.so:system/lib/vendor.qti.gnss@2.0.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.gnss@2.1.so:system/lib/vendor.qti.gnss@2.1.so \
     vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.data.connection@1.0.so:system/lib/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
     vendor/smartisan/ocean/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/smartisan/ocean/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/smartisan/ocean/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/smartisan/ocean/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
@@ -936,7 +924,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/smartisan/ocean/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/smartisan/ocean/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-    vendor/smartisan/ocean/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/smartisan/ocean/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/smartisan/ocean/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -945,11 +932,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.data.connection@1.0.so:system/lib64/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/ocean/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
     vendor/smartisan/ocean/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/smartisan/ocean/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/smartisan/ocean/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
@@ -1281,6 +1263,15 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/ocean/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.qti.imscmservice@1.0 \
+    com.qualcomm.qti.imscmservice@2.0 \
+    com.qualcomm.qti.imscmservice@2.1 \
+    libqmi_cci_system \
+    vendor.qti.hardware.data.dynamicdds@1.0 \
+    vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.imsrtpservice@1.0 \
+    vendor.qti.latency@2.0 \
     libloc_api_v02 \
     QtiSystemService \
     QtiTelephonyService \

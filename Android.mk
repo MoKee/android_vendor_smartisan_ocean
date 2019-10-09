@@ -55,6 +55,105 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.imscmservice@1.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.imscmservice@2.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.imscmservice@2.1
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so
+LOCAL_SRC_FILES_32 := proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_cci_system
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqmi_cci_system.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqmi_cci_system.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.data.dynamicdds@1.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.data.latency@1.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.qti.hardware.data.latency@1.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.ims.rcsconfig@1.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.imsrtpservice@1.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.imsrtpservice@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.qti.imsrtpservice@1.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.latency@2.0
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.latency@2.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.qti.latency@2.0.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := smartisan
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libloc_api_v02.so
