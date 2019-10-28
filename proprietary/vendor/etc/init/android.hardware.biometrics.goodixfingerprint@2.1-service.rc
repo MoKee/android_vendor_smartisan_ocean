@@ -4,7 +4,7 @@ service goodix_fps_hal /vendor/bin/hw/android.hardware.biometrics.goodixfingerpr
     # /data is mounted.
     class core
     user system
-    group system input
+    group system input uhid
     disabled
 
 on property:ro.boot.fingerprint.id=goodix

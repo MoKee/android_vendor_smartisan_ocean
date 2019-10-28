@@ -4,7 +4,7 @@ service nvt_fps_hal /vendor/bin/hw/android.hardware.biometrics.nvtfingerprint@2.
     # /data is mounted.
     class core
     user system
-    group system input
+    group system input uhid
     disabled
 
 on property:ro.boot.fingerprint.id=nvtfp
